@@ -74,13 +74,13 @@ public class xoGame {
     public void startGame() {
         resetGame(); // Reset the game before starting
 
-        // Perform game moves and checks here
+        // Perform game moves and check here
         makeMove(0, 0);
         makeMove(1, 1);
         makeMove(0, 1);
         // ...
 
-        // This resets the game you can reset it again for another test case
+        // This resets the game and tests
         resetGame();
     }
 
